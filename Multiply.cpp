@@ -1,6 +1,6 @@
 #include "Multiply.h"
 
-Multiply::Multiply(QObject* parent) : ComponentBase("Multiply", 0x20202021, "Adds 1 to the input", parent)
+Multiply::Multiply(QObject* parent) : ComponentBase("Multiply", "Adds 1 to the input", parent)
 {
     setIcon(":/images/multiply.svg");
 

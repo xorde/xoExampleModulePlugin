@@ -1,6 +1,6 @@
 #include "PlusOne.h"
 
-PlusOne::PlusOne(QObject* parent) : ComponentBase("PlusOne", 0x20202020, "Adds 1 to the input", parent)
+PlusOne::PlusOne(QObject* parent) : ComponentBase("PlusOne", "Adds 1 to the input", parent)
 {
     setIcon(":/images/plus-one.svg");
 
