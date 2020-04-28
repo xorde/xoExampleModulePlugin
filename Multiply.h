@@ -12,9 +12,9 @@ public:
 protected:
     void objectReceiveEvent(QString) override;
 
-    float m_factor = 1;
-    float m_in = 0;
-    float m_out = 0;
+    xoFloat m_factor = 1;
+    xoFloat m_in = 0;
+    xoFloat m_out = 0;
 
 };
 

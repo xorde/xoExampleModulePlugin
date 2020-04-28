@@ -12,6 +12,6 @@ Multiply::Multiply(QObject* parent) : ComponentBase("Multiply", "Adds 1 to the i
 void Multiply::objectReceiveEvent(QString)
 {
     //There is only one input - no need to check the name
-    m_out = m_in*m_factor;
+    m_out = m_in * m_factor;
     touchOutput("out");
 }
