@@ -13,5 +13,4 @@ void Multiply::objectReceiveEvent(QString)
 {
     //There is only one input - no need to check the name
     m_out = m_in * m_factor;
-    touchOutput("out");
 }

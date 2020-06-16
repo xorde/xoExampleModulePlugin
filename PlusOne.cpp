@@ -12,5 +12,4 @@ void PlusOne::objectReceiveEvent(QString)
 {
     //There is only one input - no need to check the name
     m_out = m_in+1;
-    touchOutput("out");
 }
